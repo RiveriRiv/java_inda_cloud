@@ -1,0 +1,11 @@
+zuul:
+  routes:
+    catalog:
+      path: /catalog/**
+      url: http://localhost:8083
+    order:
+      path: /order/**
+      url: http://localhost:8084
+    eureka:
+      path: /eureka/**
+      url: http://localhost:8762

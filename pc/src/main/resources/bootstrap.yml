@@ -1,0 +1,16 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: catalog
+cloud:
+  config:
+    discovery:
+      enabled: true
+      service-id: config-service
+    fail-fast: true
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8762/eureka

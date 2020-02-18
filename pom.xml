@@ -27,5 +27,8 @@
     <modules>
         <module>pc</module>
         <module>po</module>
+        <module>sd</module>
+        <module>zuul</module>
+        <module>cs</module>
     </modules>
 </project>
